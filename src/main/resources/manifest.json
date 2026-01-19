@@ -1,14 +1,16 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "Gatekka",
+    "Name": "Hychess",
+    "Version": "0.1.0",
+    "Description": "A chess mod for Hytale!",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Chris",
+            "Email": "gatekka@icloud.com",
+            "Url": "www.gatekka.com"
         }
     ],
-    "Website": "example.org",
+    "Website": "www.gatekka.com",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +19,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "com.gatekka.hychess.ExamplePlugin",
     "IncludesAssetPack": true
 }

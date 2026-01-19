@@ -1,0 +1,91 @@
+{
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 5,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Soil_Clay_Smooth_Black",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Soil_Clay_Smooth_White",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "RequiredTierLevel": 1,
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "TimeSeconds": 2
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -2
+    ]
+  },
+  "UsePlayerAnimations": true,
+  "Scale": 1.1,
+  "PlayerAnimationsId": "Block",
+  "Model": "Blocks/Chessboard.blockymodel",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Chessboard_Texture.png"
+      }
+    ],
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#7a3e3e",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Chessboard.blockymodel",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Chessboard",
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Block_One_Eighth",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true,
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "MaxStack": 10,
+  "Utility": {
+    "Usable": true
+  },
+  "Texture": "Blocks/Chessboard_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Chessboard.png",
+  "TranslationProperties": {
+    "Name": "server.items.Chessboard.name"
+  },
+  "Categories": [
+    "Furniture.Furniture"
+  ]
+}

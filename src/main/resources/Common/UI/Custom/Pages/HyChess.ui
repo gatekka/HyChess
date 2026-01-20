@@ -1,0 +1,19 @@
+$C = "../Common.ui";
+
+Group {
+    LayoutMode: Top;
+    Background: #222222;
+    Padding: (Horizontal: 10, Vertical: 10);
+    Label #PlayerOneName {
+        Style: (TextColor: #ffffff);
+        Text: "Player 1";
+    }
+    Group #Chessboard {
+        LayoutMode: Top;
+        Background: #334436(0.95);
+        Anchor: (Width: 500, Height: 500, Top: 10, Bottom: 10);
+    }
+    Label #PlayerTwoName {
+        Text: "Player 2";
+    }
+}

@@ -1,7 +1,7 @@
 {
     "Group": "Gatekka",
-    "Name": "Hychess",
-    "Version": "0.1.0",
+    "Name": "HyChess",
+    "Version": "0.2.0",
     "Description": "A chess mod for Hytale!",
     "Authors": [
         {
@@ -19,6 +19,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "com.gatekka.hychess.ExamplePlugin",
+    "Main": "com.gatekka.hychess.Main",
     "IncludesAssetPack": true
 }

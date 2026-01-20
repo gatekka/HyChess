@@ -1,1 +1,2 @@
 items.Chessboard.name=Chessboard
+interactionHints.chessboard = Press [{key}] to play {name}

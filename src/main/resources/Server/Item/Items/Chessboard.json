@@ -2,7 +2,7 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 5,
+        "Quantity": 10,
         "ResourceTypeId": "Wood_Trunk"
       },
       {
@@ -19,24 +19,15 @@
         "Type": "Crafting",
         "Id": "Furniture_Bench",
         "RequiredTierLevel": 1,
-        "Categories": [
-          "Furniture_Misc"
-        ]
+        "Categories": ["Furniture_Misc"]
       }
     ],
     "TimeSeconds": 2
   },
   "IconProperties": {
     "Scale": 0.8,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -2
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -2]
   },
   "UsePlayerAnimations": true,
   "Scale": 1.1,
@@ -56,7 +47,7 @@
     "Gathering": {
       "Breaking": {
         "ItemId": "Chessboard",
-        "GatherType": "Woods"
+        "GatherType": "Chessboard"
       }
     },
     "HitboxType": "Block_One_Eighth",
@@ -74,6 +65,10 @@
           "FaceType": "Full"
         }
       ]
+    },
+    "InteractionHint": "server.interactionHints.chessboard",
+    "Interactions": {
+      "Use": "Chessboard"
     }
   },
   "MaxStack": 10,
@@ -85,7 +80,5 @@
   "TranslationProperties": {
     "Name": "server.items.Chessboard.name"
   },
-  "Categories": [
-    "Furniture.Furniture"
-  ]
+  "Categories": ["Furniture.Furniture"]
 }
